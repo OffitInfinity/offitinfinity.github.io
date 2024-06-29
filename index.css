@@ -1,0 +1,121 @@
+/* Page Formatting */
+
+/* Coloring */
+body {
+    background-color:rgb(245,245,245);
+}
+.top-bar, .interior {
+    background-color:rgb(200,25,25);
+}
+.header {
+    background-color:rgb(25,25,25);
+}
+.interior {
+    color:          rgb(245,245,245);
+}
+.footer {
+    background-color:           rgb(25,25,25);
+    border-bottom-left-radius:  3rem;
+    border-bottom-right-radius: 3rem;
+    padding:        0rem 1rem 1.5rem 1rem;
+    margin-top:     2rem;
+}
+
+/* Padding */
+body {
+    padding:         0.0rem 0.5rem 0.5rem 0.5rem;
+}
+.header {
+    padding-top:                2rem;
+    padding-bottom:             1rem;
+    padding-left:               2rem;
+}
+.footer {
+    padding:        0rem 1rem 1.5rem 1rem;
+    margin-top:     2rem;
+}
+
+/* Border */
+.top-bar {
+    border-radius:  3rem;
+}
+.header {
+    border-top-left-radius:     3rem;
+    border-top-right-radius:    3rem;
+}
+.interior {
+    border-radius:      3rem;
+}
+.footer {
+    border-bottom-left-radius:  3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+/* Button Formatting */
+.subhead,.glamshot {
+    display:inline-block;
+}
+
+/* Button Formatting */
+
+/* Coloring */
+button {
+    background-color:rgb(30,30,30);
+    color:          rgb(245,245,245);
+}
+button:hover{
+    background-color:rgb(210,30,30);
+}
+.twitch {
+    background-color:rgb(100,65,165);
+    color:          rgb(245,245,245);
+}
+.github {
+    background-color:rgb(20,20,20);
+    color:          rgb(245,245,245);
+}
+.youtube{
+    background-color:rgb(255,0,0);
+    color:          rgb(245,245,245);
+}
+
+/* Padding */
+button {
+    padding-top:    0.5rem;
+    padding-left:   1rem;
+    padding-right:  1rem;
+    padding-bottom: 0.5rem;
+}
+.twitch, .github, .youtube {
+    padding-top:    0.4rem;
+    padding-left:   1rem;
+    padding-right:  1rem;
+    padding-bottom: 0.4rem;
+}
+
+/* Border */
+button {
+    border:         none;
+    border-radius:  1rem;
+}
+.twitch, .github, .youtube {
+    border:         none;
+    border-radius:  5px;
+}
+
+/* Misc */
+button {
+    transition: background-color 0.75s, opacity 0.5s;
+}
+
+button:active{
+    opacity: 0.85;
+}
+
+/* Image Formatting */
+.glamshot {
+    width:          100px;
+    height:         100px;
+    object-fit:     cover;
+    border-radius:  1rem;
+}
