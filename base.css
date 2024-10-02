@@ -15,10 +15,6 @@ body {
 }
 .footer {
     background-color:           rgb(25,25,25);
-    border-bottom-left-radius:  3rem;
-    border-bottom-right-radius: 3rem;
-    padding:        0rem 1rem 1.5rem 1rem;
-    margin-top:     2rem;
 }
 
 /* Padding */
@@ -26,13 +22,17 @@ body {
     padding:         0.0rem 0.5rem 0.5rem 0.5rem;
 }
 .header {
-    padding-top:                2rem;
-    padding-bottom:             1rem;
-    padding-left:               2rem;
+    padding:        2rem 0rem 1rem 2rem;
 }
 .footer {
-    padding:        0rem 1rem 1.5rem 1rem;
+    padding:        .5px 1rem 1.5rem 1rem;
     margin-top:     2rem;
+}
+.aboutbox {
+    width:          200px;
+    height:         215px;
+    padding-top:    1rem;
+    margin:         0.5rem 0.5rem 0.5rem 0.5rem
 }
 
 /* Border */
@@ -50,9 +50,15 @@ body {
     border-bottom-left-radius:  3rem;
     border-bottom-right-radius: 3rem;
 }
+.aboutbox {
+    border-radius:1rem;
+}
 
 /* Button Formatting */
 .subhead,.glamshot {
+    display:inline-block;
+}
+.aboutbox {
     display:inline-block;
 }
 
@@ -63,8 +69,8 @@ button {
     background-color:rgb(30,30,30);
     color:          rgb(245,245,245);
 }
-button:hover{
-    background-color:rgb(210,30,30);
+/*button:hover{
+    background-color:rgb(210,30,30);*/
 }
 .twitch {
     background-color:rgb(100,65,165);
@@ -84,16 +90,10 @@ button:hover{
 
 /* Padding */
 button {
-    padding-top:    0.5rem;
-    padding-left:   1rem;
-    padding-right:  1rem;
-    padding-bottom: 0.5rem;
+    padding:    0.5rem 1rem 0.5rem 1rem;
 }
 .twitch, .github, .youtube {
-    padding-top:    0.4rem;
-    padding-left:   1rem;
-    padding-right:  1rem;
-    padding-bottom: 0.4rem;
+    padding:    0.4rem 1rem 0.4rem 1rem;
 }
 
 /* Border */
@@ -127,4 +127,9 @@ button:active{
     height:         100px;
     object-fit:     cover;
     border-radius:  1rem;
+}
+
+.img_segment {
+    max-height:100%;
+    max-width:100%;
 }
