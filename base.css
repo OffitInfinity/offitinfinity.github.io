@@ -70,30 +70,12 @@ button {
     color:          rgb(245,245,245);
 }
 /*button:hover{
-    background-color:rgb(210,30,30);*/
-}
-.twitch {
-    background-color:rgb(100,65,165);
-    color:          rgb(245,245,245);
-}
-.github {
-    background-color:rgb(20,20,20);
-    color:          rgb(245,245,245);
-}
-.youtube{
-    background-color:rgb(255,0,0);
-    color:          rgb(245,245,245);
-}
-.linkedin{
-    background-color:rgb(0, 119, 181);
-}
+    background-color:rgb(210,30,30);
+}*/
 
 /* Padding */
 button {
     padding:    0.5rem 1rem 0.5rem 1rem;
-}
-.twitch, .github, .youtube {
-    padding:    0.4rem 1rem 0.4rem 1rem;
 }
 
 /* Border */
@@ -115,7 +97,7 @@ button:active{
     opacity: 0.85;
 }
 
-.segements_button, .linkedin {
+.segements_button, {
     transition: opacity 0.5s;
 }
 /*.linkedin:active{
@@ -132,4 +114,33 @@ button:active{
 .img_segment {
     max-height:100%;
     max-width:100%;
+}
+
+/* Link Formatting */
+a {
+    text-decoration: none;
+}
+
+.linkedin, .github, .twitch, .youtube {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.github {
+    background-color:rgb(20,20,20);
+    color:          rgb(245,245,245);
+}
+
+.youtube {
+    background-color:rgb(255,0,0);
+    color:          rgb(245,245,245);
+}
+.linkedin {
+    background-color:rgb(0, 119, 181);
+    color:          rgb(245,245,245);
+}
+
+.twitch {
+    background-color:rgb(100,65,165);
+    color:          rgb(245,245,245);
 }
