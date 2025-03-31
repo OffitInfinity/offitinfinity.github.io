@@ -1,0 +1,52 @@
+html {
+    background-color:rgb(15,15,15);
+}
+body {
+    background-image: linear-gradient(rgb(200,25,25),rgb(15,15,15));
+    border-radius: 10rem;
+    margin: 5% 15% 5% 15%;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.bio {
+    text-align: center;
+    padding-top: 2.5rem;
+    color:          rgb(245,245,245);
+}
+
+.links {
+    text-align: center;
+    
+}
+
+.pfp {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.twitch, .youtube, .bluesky, .website {
+    color:          rgb(245,245,245);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.youtube {
+    background-color:rgb(255,0,0);
+}
+
+.twitch {
+    background-color:rgb(100,65,165);
+}
+
+.bluesky {
+    background-color:rgb(29,161,242);
+}
+
+.website {
+    background-image: linear-gradient(120deg,rgb(25,25,40),rgb(200,25,25));
+}

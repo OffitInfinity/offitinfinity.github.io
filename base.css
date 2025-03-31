@@ -119,11 +119,18 @@ button:active{
 /* Link Formatting */
 a {
     text-decoration: none;
-}
-
-.linkedin, .github, .twitch, .youtube {
     padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 1rem;
+}
+
+.nav {
+    background-color:rgb(20,20,20);
+    color:          rgb(245,245,245);
+}
+
+.footnav {
+    background-color:rgb(120,20,20);
+    color:          rgb(245,245,245);
 }
 
 .github {

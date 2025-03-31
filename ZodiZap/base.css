@@ -1,0 +1,44 @@
+html {
+    background-color:rgb(35,35,55);
+}
+body {
+    background-image: linear-gradient(rgb(0,215,215),rgb(227,117,235));
+    border-radius: 10rem;
+    margin: 5% 15% 5% 15%;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.bio {
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+.links {
+    text-align: center;
+    
+}
+
+.pfp {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.youtube {
+    background-color:rgb(255,0,0);
+    color:          rgb(245,245,245);
+}
+
+.twitch {
+    background-color:rgb(100,65,165);
+    color:          rgb(245,245,245);
+}
+
+.twitch, .youtube {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+}
